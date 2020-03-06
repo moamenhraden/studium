@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../libs/all.css">
+    <link rel="stylesheet" href="../libs/bootstrap.css">
+    <link rel="stylesheet" href="../css/search.css">
+    <title>Document</title>
+</head>
+
+
+<body id="kenan">
+
+    <!--===================================================================================================
+     upperbar  -->
+
+    <div id="upperbar" class="container-fluid">
+        <div class="row ">
+
+            <div class="col">
+                <span>login
+                    <i class="fa fa-user"></i>
+                </span>
+                <span>register
+                    <i class="fa fa-user-plus"></i>
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+    <!--===================================================================================================
+     navbar  -->
+
+
+    <nav id="navbar" class="navbar navbar-expand-lg ">
+        <a class="navbar-brand shadow-lg " href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link shadow-lg" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link shadow-lg" href="search.html">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link shadow-lg" href="myProfile">Pricing</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    </div>
+    </div>
+
+    <!--=============================================================================================
+       header  -->
+
+
+
+    <!--===============================================================================================
+     search section  -->
+
+    <form id="searchform" >
+        <div id="searchSection" class="containter">
+
+            <div class="row justify-content-center">
+                <div class="form-group col-10 col-md-4 ">
+                    <input type="text" name="vorname" class="form-control" placeholder="Vorname" autocomplete="on">
+                </div>
+                <div class="form-group col-10 col-md-4 ">
+                    <input type="text" name="nachname" class="form-control" placeholder="Nachname" autocomplete="on">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="form-group col-10 col-md-8 ">
+                    <input list="land" id="country" name="land" class="form-control" placeholder="Land">
+                    <datalist id="land" >
+                        <option value="Germany" >
+                        <option value="Syria">
+                        <option value="Jordan">
+                        <option value="Yemen">
+                        <option value="Turkey">
+                    </datalist>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="form-group col-10 col-md-8 ">
+                    <input list="ort" id="country" name="ort"  class="form-control" placeholder="Ort">
+                    <datalist id="ort">
+                        <option value="Germany">
+                        <option value="Syria">
+                        <option value="Jordan">
+                        <option value="Yemen">
+                        <option value="Turkey">
+                    </datalist>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="form-group col-10 col-md-8 ">
+                    <input list="fach" id="country" name="fach"  class="form-control" placeholder="Fach">
+                    <datalist id="fach">
+                        <option value="Germany">
+                        <option value="Syria">
+                        <option value="Jordan">
+                        <option value="Yemen">
+                        <option value="Turkey">
+                    </datalist>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="form-group col-10 col-md-4">
+                    <input id="mybtn" type="submit" value="Search" class="btn btn-lg btn-primary">
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </form>
+    <br>
+    <br>
+
+    <!--===============================================================================================
+     results section  -->
+
+
+    <div id="resultsSection" class="container">
+      
+    
+
+
+
+    </div>
+
+
+
+    <!--==================================================================================================
+     footer -->
+    <footer>
+        <div class="container-fluid">
+            <div id="footerrow" class="row justify-content-around pt-5">
+                <div class="col col-sm-3 mt-5">
+                    <h1>GreenLife</h1>
+                    <p>some text about the team </p>
+                </div>
+                <div class="col col-sm-3 mt-5">
+                    <h3> usefull links </h3>
+                    <ul>
+                        <li>Homepage</li>
+                        <li>search</li>
+                        <li>my Profile</li>
+                        <li>perons</li>
+                    </ul>
+                </div>
+                <div class="col col-sm-3 mt-5">
+                    <h3> contact us</h3>
+                    <ul>
+                        <li> <i class="fa fa-phone"></i> 3543543243543 </li>
+                        <li><i class="fas fa-envelope"></i> muster@gmail.com </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-6 ">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row justify-content-center ">
+                <div class="col6">
+
+                    <p>some text </p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!--==================================================================================================
+     javascript -->
+
+
+     <script src="../libs/jquery-3.4.1.js"></script>
+     <script src="../libs/bootstrap.js"></script>
+    <script src="../javaScript/style.js"></script>
+    <script src="../javaScript/file.js"></script>
+</body>
+
+</html>

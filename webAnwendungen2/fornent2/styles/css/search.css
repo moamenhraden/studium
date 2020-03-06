@@ -1,0 +1,160 @@
+/*
+colors : 
+- overlay-black : rgba(0, 0, 0, 0.300)
+- overlay-green : rgba(13, 153, 13, 0.479)
+*/
+
+
+
+/*****************************************************************************
+     body   */
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*******************************************************************************
+            upperbar           */
+
+#upperbar .row{
+    background-color: #afac13 ; /*  if not supported */
+    background-image: linear-gradient(180deg, #afac13 , white);
+    text-align: right;
+    padding:15px 10px;
+    
+}
+
+
+#upperbar span{
+    color: white;
+    border: white solid 2px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 2px 5px;
+}
+
+
+/*****************************************************************************
+            navbar            */
+
+
+#navbar{
+    background-color: white;
+}
+
+#navbar .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    background-color: rgba(13, 153, 13, 0.479);
+    /* opacity: 0.5; */
+    padding: 5px;
+    border-radius: 0 30px 0 30px;
+
+}
+
+#navbar .navbar-toggler-icon {
+    color: white;
+}
+
+#navbar .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    background-color: rgba(13, 153, 13, 0.479);
+    /* opacity: 0.5;  */
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0 20px 0 20px;
+}
+
+.backgroundScroll {
+    background-color: rgb(199, 180, 15);
+    transition: background-color 400ms;
+}
+
+
+
+
+
+
+
+/*******************************************************************************
+            main           */
+
+#searchSection{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    background-color: #afac13 ; /*  if not supported */
+    background-image: linear-gradient(180deg, #afac13 , white);
+    border: rgb(13, 151, 36) solid 5px;
+    border-radius: 0 40px 0 40px;
+
+}
+
+
+#searchSection #mybtn{
+    width: 100%;
+    background-color: #afac13 ; /*  if not supported */
+    background-image: linear-gradient(180deg, #afac13 , white);
+    color: rgb(0, 0, 0);
+    border: rgb(13, 151, 36) solid 2px;
+    border-radius: 0 20px 0 20px;
+
+}
+
+
+#resultsSection ul{
+    list-style-type: none;
+}
+
+#resultsSection img{
+    max-width: 100%;
+    height: auto;
+}
+
+#resultsSection .card{
+    margin: 20px;
+    height: 250px;
+}
+
+
+
+
+/************************************************************************************
+        footer           */
+
+footer {
+    background-image: url("../images/background.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+
+footer .container-fluid {
+    background-color: rgba(13, 153, 13, 0.479);
+}
+
+#footerrow {
+    height: 300px;
+}
+
+
+
+
+#footerrow .col h1 {
+    font-size: 3.5rem;
+    border: white solid 5px;
+    border-radius: 0 30px 0 30px;
+    padding: 4px;
+
+}

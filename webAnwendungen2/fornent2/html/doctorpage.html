@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../libs/all.css">
+    <link rel="stylesheet" href="../libs/bootstrap.css">
+    <link rel="stylesheet" href="../styles/css/register.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+
+
+
+
+    <!--===================================================================================================
+     navbar  -->
+
+    <div id="navbar" class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav id="navbar" class="navbar navbar-expand-lg ">
+                    <a class="navbar-brand shadow-lg " href="index.html">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item active">
+                                <a class="nav-link shadow-lg" href="index.html">Home <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shadow-lg" href="search.html">Search</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--=============================================================================================
+       header  -->
+    <!-- TODO: picture , d -->
+
+    <form class="mt-5" id="mainform">
+
+        <!-- picture and some information-->
+
+        <div class="container">
+
+            <div class="form-row mb-3 justify-content-center">
+                <div class="col-md-4 form-group ">
+                    <img src="../images/index.jpg" alt="..." class="img-thumbnail">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- name vorname -->
+
+        <div class="container">
+            <div class="form-row justify-content-center">
+                <div class="col">
+                    <h1 >persönliche daten </h1>
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="form-row mb-3 ">
+                <label for="vorname" class="col-3 col-form-label">Vorname : </label>
+                <div class="col">
+                  <input type="text" class="form-control-plaintext" name="vorname" id="vorname" value="Moamen" readonly>
+                </div>
+              </div>
+
+              <div class="form-row mb-3">
+                <label for="nachname" class="col-3 col-form-label">Nachname : </label>
+                <div class="col">
+                  <input type="text" class="form-control-plaintext" name="nachname" id="nachname" value="Hraden" readonly>
+                </div>
+              </div> 
+
+              <div class="form-row mb-3">
+                <label for="date" class="col-3 col-form-label">Geburtstag : </label>
+                <div class="col ">
+                  <input type="date" class="form-control-plaintext" id="date"  name="geburtstag" value="2000-01-01" readonly>
+                </div>
+              </div> 
+
+            
+
+            <div class="form-row mb-3 text-right">
+                <div class="col">
+                    <button id="btn-PD" type="button" class="btn btn-primary"> edit</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- kontakt daten -->
+
+        <div class="container">
+            <div class="form-row justify-content-center">
+                <div class="col">
+                    <h1 > Kontakt Daten  </h1>
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="form-row mb-3 ">
+                <label for="email" class="col-3 col-form-label">E-Mail Adresse  : </label>
+                <div class="col">
+                  <input type="email" class="form-control-plaintext" name="email" id="email" value="momenhredien@gmail.com" readonly>
+                </div>
+              </div>
+
+              <div class="form-row mb-3">
+                <label for="Telefonnummer" class="col-3 col-form-label">Telefonnummer : </label>
+                <div class="col">
+                  <input type="text" class="form-control-plaintext" name="telefonnummer" id="Telefonnummer" value="01625980903" readonly>
+                </div>
+              </div> 
+
+            <div class="form-row mb-3 text-right">
+                <div class="col">
+                    <button id="btn-KD" type="button" class="btn btn-primary"> edit</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- adresse -->
+
+
+        <div class="container">
+            <div class="form-row justify-content-center">
+                <div class="col">
+                    <h1 > Adresse   </h1>
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="form-row  mb-3">
+                <label for="strasse" class="col-3 col-form-label">Strasse : </label>
+                <div class="col">
+                  <input type="text" class="form-control-plaintext" name="strasse" id="strasse" value="Berliner Strasse" readonly>
+                </div>
+              </div>
+
+              <div class="form-row mb-3">
+                <label for="hausnummer" class="col-3 col-form-label">Hausnummer : </label>
+                <div class="col">
+                  <input type="text" class="form-control-plaintext" name="hausnummer" id="hausnummer" value="34" readonly>
+                </div>
+              </div>
+              
+              <div class="form-row mb-3">
+                <label for="plz" class="col-3 col-form-label">PLZ : </label>
+                <div class="col">
+                  <input type="text" class="form-control-plaintext" name="plz" id="plz" value="72458" readonly>
+                </div>
+              </div>
+
+              <div class="form-row mb-3">
+                <label for="ort" class="col-3 col-form-label">  Ort : </label>
+                <div class="col">
+                  <input type="text" class="form-control-plaintext" name="ort" id="ort" value="Albstadt" readonly>
+                </div>
+              </div>
+
+            <div class="form-row mb-3 text-right">
+                <div class="col">
+                    <button id="btn-A" type="button" class="btn btn-primary"> edit</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+        <div class="form-row mb-5">
+            <div class="col text-center">
+                <button type="button" class="btn btn-lg btn-success" id="btn-save"> Save </button>
+            </div>
+        </div>
+    </div>
+
+
+    </form>
+
+
+
+
+
+    <!--==================================================================================================
+     javascript -->
+
+
+    <script src="../libs/jquery-3.4.1.js"></script>
+    <script src="../libs/jquery.validate.js"></script>
+    <script src="../libs/bootstrap.js"></script>
+    <script src="../scripts/doctorpage.js"></script>
+
+   
+</body>
+
+</html>

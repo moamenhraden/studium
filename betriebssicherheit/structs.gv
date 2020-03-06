@@ -1,0 +1,12 @@
+graph structs {
+	node [shape=record]
+	rankdir=LR
+	Z0 [label=" {  <0>  | { <Z1>Z1(0.3)|<Z2>Z2(0.7)}}"]
+	Z1 [label=" {  <0>  | { <Z3>Z3(0.9)|<Z4>Z4(0.3)}}"]
+	Z0:Z1 -- Z1
+	Z2 [label=" {  <0>  | { <Z5>Z5(0.5)|<Z6>Z6(0.2)}}"]
+	Z0:Z2 -- Z2
+	a [label="=1"]
+	Z2:Z6 -- a
+	Z1:Z3 -- a
+}

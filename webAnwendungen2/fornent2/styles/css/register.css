@@ -1,0 +1,78 @@
+
+/*****************************************************************************
+     body   */
+
+
+     html,
+     body {
+         width: 100%;
+         /* background-image: linear-gradient(180deg, #9dad09 , rgb(6, 163, 6)); */
+
+
+     }
+     
+  
+     
+    
+     
+     /*****************************************************************************
+                 navbar            */
+     
+     
+     #navbar{
+         background-color: rgba(255, 255, 255, 0);
+     }
+     
+     #navbar .navbar-brand {
+         color: rgb(255, 255, 255);
+         font-size: 2.5rem;
+         background-color: rgb(11, 155, 11);
+         padding: 5px;
+         border-radius: 0 30px 0 30px;
+     
+     }
+     
+     #navbar .navbar-toggler-icon {
+         color: white;
+     }
+     
+     #navbar .nav-link {
+         color: rgb(255, 255, 255);
+         font-size: 1.2rem;
+         background-color: rgb(11, 155, 11);
+         margin: 5px;
+         padding: 5px;
+         border-radius: 0 20px 0 20px;
+     }
+     
+    
+     
+     
+/* =================================================================== */
+
+
+     
+#formcontainer{
+    padding: 50px 0 50px 0 ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* background-image:  linear-gradient(180deg, rgb(6, 163, 6) ,#9dad09); */
+    /* background-color:rgb(6, 163, 6)  ; */
+    /* border:	2px solid 	rgb(92, 184, 92) ; */
+} 
+     
+#formcontainer input , #formcontainer select{
+    background: none repeat;
+    color: rgb(47, 47, 47);
+    font-size: 1.rem;
+}
+
+#formcontainer option{
+    color: black;
+    font-size: 1.rem;
+}
+
+#formcontainer input::placeholder{
+    color: rgb(47, 47, 47);
+    font-size: 1.rem;
+}

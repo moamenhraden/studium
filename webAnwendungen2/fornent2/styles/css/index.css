@@ -1,0 +1,184 @@
+/*
+colors : 
+- overlay-black : rgba(0, 0, 0, 0.300)
+- overlay-green : rgba(13, 153, 13, 0.479)
+*/
+
+
+
+/*****************************************************************************
+     body   */
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+/*****************************************************************************
+        navbar            */
+
+
+#navAndHeader {
+    background-image: url("../images/background.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#navbar .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    background-color: rgba(13, 153, 13, 0.479);
+    /* opacity: 0.5; */
+    padding: 5px;
+    border-radius: 0 30px 0 30px;
+
+}
+
+#navbar .navbar-toggler-icon {
+    color: white;
+}
+
+#navbar .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    background-color: rgba(13, 153, 13, 0.479);
+    /* opacity: 0.5;  */
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 0 20px 0 20px;
+}
+
+.backgroundScroll {
+    background-color: rgb(199, 180, 15);
+    transition: background-color 400ms;
+}
+
+
+
+
+
+
+
+/*******************************************************************************
+        header            */
+
+
+
+
+
+
+#headertextbig span {
+    color: white;
+    font-weight: bold;
+    background-color: #afac13
+}
+
+#headertextsmall {
+    color: rgb(13, 151, 36);
+}
+
+#headertext span {
+    padding: 2px;
+}
+
+#divFormHomepage .container {
+    background-color: rgba(0, 0, 0, 0.300);
+    border-radius: 10px;
+    width: 70%;
+    /* border:#afac13 solid 5px ; */
+}
+
+
+
+
+
+
+/************************************************************************************
+             main section           */
+
+
+
+
+#mainDoctors .mycol {
+    background-image: url('../images/doctor2.webp');
+    height: 600px;
+    color: white;
+    background-size: cover;
+
+}
+
+
+#mainDoctors .mycol .container-fluid,
+#mainDoctors .mycol .container-fluid .row {
+    height: 100%;
+
+}
+
+#mainDoctors .row h1 {
+    font-size: 3rem;
+}
+
+#mainDoctors .row ul {
+    font-size: 1.5rem;
+}
+
+
+#mainPart2-image {
+    background-image: url("../images/doctor4.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+
+}
+
+/************************************************************************************
+    footer           */
+
+footer {
+    background-image: url("../images/background.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+
+footer .container-fluid {
+    background-color: rgba(13, 153, 13, 0.479);
+}
+
+#footerrow {
+    height: 300px;
+}
+
+
+
+
+#footerrow .col h1 {
+    font-size: 3.5rem;
+    border: white solid 5px;
+    border-radius: 0 30px 0 30px;
+    padding: 4px;
+
+}
