@@ -11,7 +11,7 @@
   "dependencies": {
     "better-sqlite3": "^5.4.3",
     "express": "^4.17.1",
-    "luxon": "^1.19.3",
+    "luxon": "^1.28.1",
     "md5": "^2.2.1"
   }
 }
